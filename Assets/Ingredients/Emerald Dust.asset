@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60add1540a235d408fa17bc332b0692, type: 3}
   m_Name: Emerald Dust
   m_EditorClassIdentifier: 
-  displayName: Emerald Dust
-  sprite: {fileID: 21300000, guid: 1ba5cf5a28ea88747bf98e149c36da85, type: 3}
-  rarity: 3
-  cost: 180
+  displayName: 
+  sprite: {fileID: 0}
+  rarity: 0
+  cost: 0
+  uses: 0
+  maxProfit: 0

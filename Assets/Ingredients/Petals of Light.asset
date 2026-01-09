@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60add1540a235d408fa17bc332b0692, type: 3}
   m_Name: Petals of Light
   m_EditorClassIdentifier: 
-  displayName: Petals of Light
-  sprite: {fileID: 21300000, guid: 4edf7f863b044534b98b3c398aa798f3, type: 3}
-  rarity: 4
-  cost: 310
+  displayName: 
+  sprite: {fileID: 0}
+  rarity: 0
+  cost: 0
+  uses: 0
+  maxProfit: 0

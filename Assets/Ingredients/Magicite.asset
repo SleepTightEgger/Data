@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60add1540a235d408fa17bc332b0692, type: 3}
   m_Name: Magicite
   m_EditorClassIdentifier: 
-  displayName: Magic Rock
-  sprite: {fileID: 21300000, guid: 0ce36e6082838fd438f2d861b86c0982, type: 3}
-  rarity: 4
-  cost: 220
+  displayName: 
+  sprite: {fileID: 0}
+  rarity: 0
+  cost: 0
+  uses: 0
+  maxProfit: 0
