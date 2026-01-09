@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60add1540a235d408fa17bc332b0692, type: 3}
   m_Name: Noxious Slime
   m_EditorClassIdentifier: 
-  displayName: 
+  displayName: Noxious Slime
   sprite: {fileID: 0}
-  rarity: 0
-  cost: 0
-  uses: 0
+  rarity: 1
+  cost: 30
+  uses: 4
   maxProfit: 0
