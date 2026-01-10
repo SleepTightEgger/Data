@@ -12,7 +12,7 @@ public class InventoryItem : ScriptableObject
 
     public int cost;
 
+    // My added variables
     public int uses;
-
     public int maxProfit;
 }

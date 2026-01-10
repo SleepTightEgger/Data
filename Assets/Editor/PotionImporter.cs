@@ -27,7 +27,7 @@ public class PotionImporter : ScriptableObject
 
     void ImportRecipes(ExcelImporter excel, Dictionary<string, InventoryItem> items) {
         if (recipes == null) {
-           Debug.LogError("No RecipeCollection provided to store imported recipes. Please assign this in");
+           Debug.LogError("No RecipeCollection provided to store imported recipes.");
            return;
         }
 
@@ -74,6 +74,8 @@ public class PotionImporter : ScriptableObject
 
             item.cost = table.GetValue<int>(row, "Cost");
 
+
+            // My added code.
             if (table.HasColumn("Uses")) {
                 item.uses = table.GetValue<int>(row, "Uses");
              }
